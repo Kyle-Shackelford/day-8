@@ -2,10 +2,27 @@ body{
     background-color: antiquewhite;
 }
 
+a{
+    text-decoration: none;
+    color: cadetblue;
+}
+
 .text-columns{
 column-count: 3;
 column-gap: 40px;
 column-rule: 1px solid ;
+}
+
+h2{
+    color: olivedrab;
+}
+
+h3{
+    color: antiquewhite;
+}
+
+p{
+    color: rgb(121, 17, 17);
 }
 
 .row:after{
@@ -19,5 +36,4 @@ column-rule: 1px solid ;
     float: left;
     width: 25%;
     padding: 10px;
-    /* background-color: antiquewhite; */
 }
